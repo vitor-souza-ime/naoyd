@@ -504,7 +504,7 @@ def main():
     max_consecutive_errors = 3
     
     try:
-        while True:
+        while iteration <= 50:
             print(f"\n{'='*50}")
             print(f"📸 BENCHMARK - Iteração {iteration}")
             print(f"{'='*50}")
